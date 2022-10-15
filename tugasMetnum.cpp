@@ -140,7 +140,7 @@ void newtonraphson()
       count++;
    }
    wrtnwt ( x, x1 );
-   cout << "\nnilai x = " << x1 << "\n\n";
+   cout << "\nAkar persamaan = " << x1 << "\n\n";
    main();
 }
 
@@ -151,9 +151,9 @@ int main(){
 			<< "1. Metode tabel\n"
 			<< "2. Biseksi\n"
 			<< "3. Regula Falsi\n"
-         << "4. Newton-Raphson\n"
-         << "5. Secant\n"
-         << "6. Iterasi\n"
+         	<< "4. Newton-Raphson\n"
+         	<< "5. Secant\n"
+         	<< "6. Iterasi\n"
 			<< "7. Exit\n"
 			<< "\nPilihan : "; cin >> sel;
 
